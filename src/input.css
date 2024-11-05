@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container{
+    @apply max-w-96 px-5 max-w-1240
+}
+
+.btn-green{
+    @apply bg-lightgreen rounded-2xl text-white px-4 py-2 font-medium text-center
+}
+
+.btn-white{
+    @apply  rounded-2xl text-black px-4 py-2 font-medium text-center
+}
+
+
